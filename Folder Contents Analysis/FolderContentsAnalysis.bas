@@ -29,9 +29,7 @@ With ThisWorkbook.ActiveSheet
         '   clear the worksheet, including any charts:
         
         .Cells.Clear
-        If .ChartObjects.Count > 0 Then
-            .ChartObjects.Delete
-        End If
+        If .ChartObjects.Count > 0 Then .ChartObjects.Delete
 
         '   summary headers:
         
