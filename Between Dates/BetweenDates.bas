@@ -12,7 +12,7 @@ Function BETWEENDATES(date1, Optional RoundToDays = False, Optional date2 = 0)
 Dim Interval As Double
 
 If date2 = 0 Then
- date2 = Now
+    date2 = Now
 End If
 
 If Not (IsDate(date1) And IsDate(date2)) Then
