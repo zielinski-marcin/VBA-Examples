@@ -1,7 +1,8 @@
 ## Folder Contents Analysis
 
 In the currently active sheet, creates a list of all files in the selected folder: 
-* name,
+* path,
+* filename,
 * size,
 * date of last modification,
 * extension.
