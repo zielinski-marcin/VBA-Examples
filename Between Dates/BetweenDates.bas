@@ -2,11 +2,8 @@ Attribute VB_Name = "BETWEENDATES"
 Function BETWEENDATES(date1, Optional RoundToDays = False, Optional date2 = 0)
 
 '   Displays the interval between two dates in text form.
-
 '   If only one date value was provided, we calculate the interval from Current Time.
-
 '   By default, both date and time of day are taken into consideration.
-
 '   The time of day will be ignored when parameter RoundToDays is set to True.
 
 Dim Interval As Double
